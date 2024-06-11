@@ -1,0 +1,64 @@
+.form_control_wrap {
+  background-image: url("../../../public/images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 90px 0;
+}
+.form__wrap {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px #dadadd;
+}
+
+.form-control {
+  text-align: center;
+  margin: 20px 0 60px;
+}
+
+.form_name input,
+.form_email input,
+.form_password input,
+.form_Phone input {
+  width: 450px;
+  height: 80px;
+
+  outline: none;
+  padding-left: 20px;
+  font-size: 18px;
+  border: 1px solid #dedee2;
+}
+
+.form-control button {
+  background-color: #23273b;
+  color: #a9a9aa;
+  height: 70px;
+  width: 474px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 0;
+  font-size: 17px;
+}
+
+.form-control h1 {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #626266;
+  margin-bottom: 60px;
+}
+.form__wrap p {
+  font-style: italic;
+  text-align: center;
+  color: #626266;
+  font-size: 18px;
+}
+
+.error_auth {
+  text-align: center;
+  color: red;
+  margin-top: 15px;
+}

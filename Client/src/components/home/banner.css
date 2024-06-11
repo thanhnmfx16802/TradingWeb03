@@ -1,0 +1,43 @@
+#banner {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-group-text {
+  position: absolute;
+  top: 30%;
+  left: 50px;
+  width: 300px;
+}
+
+#banner p,
+h3 {
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 8px;
+}
+
+#banner p {
+  color: #a9a9aa;
+  font-size: 14px;
+}
+
+#banner h3 {
+  font-size: 30px;
+  color: #3f3f44;
+  font-weight: lighter;
+}
+#banner button {
+  background-color: #3f3f44;
+  color: #a9a9aa;
+  font-size: 16px;
+  font-style: italic;
+  padding: 8px 15px;
+}
+
+#banner button:hover {
+  background-color: #33333a;
+}

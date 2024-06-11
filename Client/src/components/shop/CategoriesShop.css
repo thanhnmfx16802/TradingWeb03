@@ -1,0 +1,21 @@
+.CS-wrap {
+  width: 250px;
+}
+.CS-ul {
+  padding-left: 10px;
+}
+.CS-li {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 10px 5px;
+}
+
+.CS-li:hover {
+  color: blue;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.darkcolor {
+  background-color: #141010ee;
+  color: white;
+}

@@ -1,0 +1,26 @@
+.detail_form_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d6d3d3;
+  height: 35px;
+  width: 300px;
+  padding-left: 15px;
+}
+
+.detail_form_wrap p {
+  font-style: italic;
+  color: #5f5c5c;
+}
+
+.detail_form_wrap input {
+  border: none;
+  font-size: 18px;
+  outline: none;
+  width: 50px;
+  font-style: italic;
+}
+
+.detail_form_wrap button:hover {
+  opacity: 0.8;
+}

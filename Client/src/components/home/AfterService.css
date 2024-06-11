@@ -1,0 +1,34 @@
+#after-service {
+  width: 1080px;
+  margin: 15px auto;
+}
+
+.AS-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  background-color: #f6f6fc;
+  height: 150px;
+}
+
+.AS-Item {
+  width: 200px;
+  text-align: center;
+}
+
+#after-service .AS-service {
+  text-transform: uppercase;
+  color: #898992;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+#after-service .AS-ship {
+  color: #a9a9aa;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 14px;
+}

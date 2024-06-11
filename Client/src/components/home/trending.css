@@ -1,0 +1,52 @@
+#trending {
+  width: 1080px;
+  margin: 30px auto;
+}
+
+#trending .trending-intro,
+h5 {
+  text-transform: uppercase;
+  font-style: italic;
+}
+#trending .trending-intro {
+  color: #a9a9aa;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#trending h5 {
+  font-size: 20px;
+  color: #3f3f44;
+  margin: 0 0 15px 0;
+  text-align: left;
+}
+
+.detailPhotoWrap {
+  display: flex;
+  flex-wrap: wrap; /* chọn wrap để các flex items có thể được wrap trong một dòng mới (xuống hàng dưới) vì chúng quá to khi ở trên 1 dòng */
+  justify-content: space-between;
+  gap: 10px;
+}
+.detailPhotoList {
+  flex-basis: 23%;
+}
+
+.imgUrlDetail {
+  width: 100%;
+}
+
+.trending-name {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.trending-price {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.imgUrlDetail:hover {
+  opacity: 50%;
+}

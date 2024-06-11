@@ -1,0 +1,42 @@
+.categories {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.categories p,
+h5 {
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+.categories p {
+  color: #a9a9aa;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.categories h5 {
+  font-size: 20px;
+  color: #3f3f44;
+  margin: 0 0 15px 0;
+}
+
+.categories-prod {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.categories-item {
+  flex: 1;
+}
+
+.categoriesImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.categoriesImg:hover {
+  opacity: 70%;
+}

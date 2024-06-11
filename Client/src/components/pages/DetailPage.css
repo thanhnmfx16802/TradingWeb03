@@ -1,0 +1,12 @@
+.detail_page {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* use for RelatedProduct component */
+.detail_prod_related {
+  display: flex;
+  flex-wrap: wrap; /* chọn wrap để các flex items có thể được wrap trong một dòng mới (xuống hàng dưới) vì chúng quá to khi ở trên 1 dòng */
+
+  gap: 10px;
+}

@@ -1,0 +1,30 @@
+#product-list img:hover {
+  opacity: 50%;
+}
+#product-list {
+  display: flex;
+  width: 75%;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.pl-detailPhoto {
+  width: 31%;
+}
+.pl-imgUrl {
+  width: 100%;
+}
+
+.pl-name {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.pl-price {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+#product-list a {
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.bill_wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+.bill_info {
+  font-style: italic;
+  color: #797986;
+}

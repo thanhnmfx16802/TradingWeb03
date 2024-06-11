@@ -1,0 +1,23 @@
+.footerList {
+  display: flex;
+  gap: 280px;
+  justify-content: center;
+  /* width: 1080px; */
+  padding: 25px 0;
+  margin: 0 auto;
+  background-color: #131624;
+}
+
+.footerList a {
+  display: block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #a9a9aa;
+  margin: 15px 0;
+  font-style: italic;
+}
+.titleFooter {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #e5e5e7;
+}
